@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f85a3bc-ae9e-43c2-a479-78fbfd77a396" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mishpahug-web-tests/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/RegistrationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Wikipedia-test_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Wikipedia-test_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Wikipedia-test_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Wikipedia-test_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/LoginTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/SessionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/UserHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wikipedia-test/out/test/classes/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Wikipedia-test/out/test/classes/HelperBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/ApplicationManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/ChangeLangageTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/HelperBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/LeftNavMenuHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/LeftNavMenuTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/SearchFromLangMainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/SearchFromMainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/SessionHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/WelcomeHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wikipedia-test/src/test/java/WikiLoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/out/test/classes/com/telRan/mish/RegistrationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/mishpahug-web-tests/out/test/classes/com/telRan/mish/RegistrationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/out/test/classes/com/telRan/mish/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/mishpahug-web-tests/out/test/classes/com/telRan/mish/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/RegistrationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/RegistrationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/TestBase.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/addressBook/.gradle/" />
     <ignored path="$PROJECT_DIR$/addressBook/build/" />
@@ -96,37 +105,40 @@
     <session id="-1547407708">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="gradle" value="2" />
-          <entry key="java" value="2" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="23" />
-          <entry key="java" value="1623" />
+          <entry key="dummy" value="33" />
+          <entry key="java" value="2657" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1623" />
-          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="JAVA" value="2657" />
+          <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -134,44 +146,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/RegistrationTests.java">
+        <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/out/test/classes/com/telRan/mish/ApplicationManager.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state>
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#1448#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addressBook/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="16" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -684,7 +665,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/Wikipedia-test" value="6153421483000" />
+        <entry key="$PROJECT_DIR$/Wikipedia-test" value="6156343875000" />
         <entry key="$PROJECT_DIR$/Wikipedia-test/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/Wikipedia-test/build.gradle" value="2664368524" />
         <entry key="$PROJECT_DIR$/Wikipedia-test/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -694,7 +675,7 @@
         <entry key="$PROJECT_DIR$/addressBook/build.gradle" value="2664368524" />
         <entry key="$PROJECT_DIR$/addressBook/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/addressBook/settings.gradle" value="97027544" />
-        <entry key="$PROJECT_DIR$/mishpahug-web-tests" value="6158356908000" />
+        <entry key="$PROJECT_DIR$/mishpahug-web-tests" value="6159575415000" />
         <entry key="$PROJECT_DIR$/mishpahug-web-tests/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/mishpahug-web-tests/build.gradle" value="2664368524" />
         <entry key="$PROJECT_DIR$/mishpahug-web-tests/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -1029,6 +1010,11 @@
         <option value="$PROJECT_DIR$/Wikipedia-test/src/test/java/WikiLoginTest.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/build.gradle" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/TestBase.java" />
+        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/HelperBase.java" />
+        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/LoginTests.java" />
+        <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/UserHelper.java" />
         <option value="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/RegistrationTests.java" />
       </list>
     </option>
@@ -1052,7 +1038,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1063,67 +1048,59 @@
             <path>
               <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="mishpahug-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="mishpahug-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="mishpahug-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="mishpahug-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="mishpahug-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="telRan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mishpahug-web-tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="telRan" type="462c0819:PsiDirectoryNode" />
               <item name="mish" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wikipedia-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wikipedia-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wikipedia-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="addressBook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wikipedia-test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539693052404" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540198623679" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1135,14 +1112,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Wikipedia-test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.telRan.mish" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mishpahug-web-tests" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Wikipedia-test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1157,7 +1135,41 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.RegistrationTests.registrationFromLoginForm">
+  <component name="RunManager" selected="TestNG.RegistrationTests.registerFromHeaderTest">
+    <configuration name="LoginTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mishpahug-web-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telRan.mish.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telRan.mish" />
+      <option name="MAIN_CLASS_NAME" value="com.telRan.mish.LoginTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.testLoginRegisteredUser" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mishpahug-web-tests_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.telRan.mish.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.telRan.mish" />
+      <option name="MAIN_CLASS_NAME" value="com.telRan.mish.LoginTests" />
+      <option name="METHOD_NAME" value="testLoginRegisteredUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistrationTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mishpahug-web-tests_test" />
       <extension name="coverage">
@@ -1210,44 +1222,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchFromLangMainPage.searchFromLangMainPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Wikipedia-test_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchFromLangMainPage" />
-      <option name="METHOD_NAME" value="searchFromLangMainPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WikiLoginTest.loginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Wikipedia-test_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WikiLoginTest" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="TestNG.SearchFromLangMainPage.searchFromLangMainPage" />
-      <item itemvalue="TestNG.WikiLoginTest.loginTest" />
       <item itemvalue="TestNG.RegistrationTests.registerFromHeaderTest" />
       <item itemvalue="TestNG.RegistrationTests" />
       <item itemvalue="TestNG.RegistrationTests.registrationFromLoginForm" />
+      <item itemvalue="TestNG.LoginTests.testLoginRegisteredUser" />
+      <item itemvalue="TestNG.LoginTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.RegistrationTests.registrationFromLoginForm" />
         <item itemvalue="TestNG.RegistrationTests.registerFromHeaderTest" />
+        <item itemvalue="TestNG.RegistrationTests.registrationFromLoginForm" />
+        <item itemvalue="TestNG.LoginTests.testLoginRegisteredUser" />
+        <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.RegistrationTests" />
-        <item itemvalue="TestNG.WikiLoginTest.loginTest" />
-        <item itemvalue="TestNG.SearchFromLangMainPage.searchFromLangMainPage" />
       </list>
     </recent_temporary>
   </component>
@@ -1270,34 +1258,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.16 at 14h 28m 32s.xml">
+    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.22 at 10h 50m 23s.xml">
       <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.16 at 14h 41m 43s.xml">
+    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.22 at 10h 52m 08s.xml">
       <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.16 at 15h 21m 04s.xml">
+    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.22 at 10h 52m 37s.xml">
       <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.16 at 15h 22m 31s.xml">
+    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.22 at 10h 53m 51s.xml">
       <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.16 at 15h 24m 09s.xml">
+    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.22 at 10h 54m 57s.xml">
       <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.16 at 15h 25m 20s.xml">
+    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.22 at 10h 55m 37s.xml">
+      <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.22 at 10h 56m 06s.xml">
+      <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.22 at 11h 20m 41s.xml">
+      <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.22 at 11h 26m 59s.xml">
       <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.16 at 15h 26m 14s.xml">
-      <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.16 at 15h 28m 27s.xml">
-      <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.16 at 15h 30m 20s.xml">
-      <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.16 at 15h 31m 07s.xml">
+    <history-entry file="RegistrationTests_registrationFromLoginForm - 2018.10.22 at 11h 57m 29s.xml">
       <configuration name="RegistrationTests.registrationFromLoginForm" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1313,15 +1301,15 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" weight="0.28242075" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.28602305" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31871346" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.081871346" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.081871346" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32748538" />
@@ -1333,7 +1321,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.32956383" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32925072" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1465,15 +1453,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state>
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="90">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1487,12 +1475,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/RegistrationTests.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.14.3/bfd2538501a129a142fe8366169c48b91609dc0b/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="263">
+          <caret line="601" column="39" lean-forward="true" selection-start-line="601" selection-start-column="39" selection-end-line="601" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/UserHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/RegistrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="42" column="35" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/out/test/classes/com/telRan/mish/ApplicationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1448#0" expanded="true" />
           </folding>
         </state>
       </provider>

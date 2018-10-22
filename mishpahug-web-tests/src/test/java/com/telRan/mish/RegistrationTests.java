@@ -1,6 +1,5 @@
 package com.telRan.mish;
 
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -10,13 +9,12 @@ public class RegistrationTests extends TestBase {
 
     @BeforeMethod
     public void preCondition(){
-        wd.manage().deleteAllCookies();
-
+        app.getSessionHelper().deleteCookies();
     }
 
     @AfterMethod
     public void postCondition(){
-        logOut();
+        app.getSessionHelper().logOut();
     }
 
 
@@ -28,40 +26,39 @@ public class RegistrationTests extends TestBase {
         String password = "a123456";
         System.out.println(password);
 
-        clickOnCreateAccountButtonOnHeader();
+        app.getUserHelper().clickOnCreateAccountButtonOnHeader();
+        app.getUserHelper().FillCreateAccountForm(myEmail, "a123456", "a123456");
+        app.getUserHelper().ClickOnRegistrationButton();
 
-        FillCreateAccountForm(myEmail, "a123456", "a123456");
-
-        ClickOnRegistrationButton();
-
-        Assert.assertTrue(wd.findElement(By.xpath("//img[@id='borderRadius']")).isDisplayed());
+        Assert.assertTrue(app.isHamburgerDisplayed());
     }
+
 
 
     @Test
     public void registrationFromLoginForm() throws InterruptedException {
-        String myEmail= "etr+" +System.currentTimeMillis()+"@gmail.com";
-        System.out.println(myEmail);
+       String myEmail= "etr+" +System.currentTimeMillis()+"@gmail.com";
+       System.out.println(myEmail);
 
-        String password = "a123456";
+       String password = "a123456";
         System.out.println(password);
 
-        clickOnLoginButtonOnHeader();
-        OpenCreateAccountForm(); //cliquer sur alt + enter et creer
+        app.getSessionHelper().clickOnLoginButtonOnHeader();
         Thread.sleep(2000);
-        FillCreateAccountForm(myEmail, "a123456", "a123456");
-        //clickOnCreateAccountButtonOnHeader();
+        app.getUserHelper().OpenCreateAccountForm(); //cliquer sur alt + enter et creer
+       Thread.sleep(2000);
+       app.getUserHelper().FillCreateAccountForm(myEmail, "a123456", "a123456");
+        Thread.sleep(2000);
+       app.getUserHelper().ClickOnRegistrationButton();
 
 
-    }
+       Assert.assertTrue(app.getUserHelper().isOnRegistrationPage());
 
-    public void OpenCreateAccountForm() {
-        wd.findElement(By.xpath("//span[contains(text(),'Registration')]")).click();
-    }
 
-    public void clickOnLoginButtonOnHeader() {
-        wd.findElement(By.xpath("//span[contains(text(),'Login')]")).click();
-    }
+
+  }
+
+
 
     @Test
     public void registrationFromCreateEvent(){
