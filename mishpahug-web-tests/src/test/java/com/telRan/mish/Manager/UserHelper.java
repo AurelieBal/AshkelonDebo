@@ -30,12 +30,6 @@ public class UserHelper extends HelperBase{
         //wd.findElement(By.cssSelector("[formcontrolname=passwordRep")).sendKeys(passwordRep);
     }
 
-    public void type(By locator, String text) {
-        click(locator);
-        wd.findElement(locator).clear();
-        wd.findElement(locator).sendKeys(text);
-    }
-
     public void clickOnCreateAccountButtonOnHeader() {
         click(By.cssSelector("a.paddingLeft.hover.but.mat-button:last-child"));
     }
@@ -64,6 +58,52 @@ public class UserHelper extends HelperBase{
         click(By.xpath("//*[contains(text(),'"+religious +"')]"));
 
         //date of birth
+        enterDate(year, month, day);
+    }
+
+    //Status
+    public void fillAboutMyselfForm(String status, String food, String gender, String languages) throws InterruptedException {
+        chooseOption("Marital Status", status);
+//        click(By.cssSelector("[placeholder='Marital Status']"));
+//        click(By.xpath("//*[contains(text(),'"+status +"')]"));
+        //Food
+        chooseOption("Food Preferences",food);
+//        click(By.cssSelector("[placeholder='Food Preferences']"));
+//        click(By.xpath("//*[contains(text(),'"+food +"')]"));
+        escape();
+
+        //Gender
+        chooseOption("Gender", gender);
+//        waitAndClick(3000, By.cssSelector("[placeholder='Gender']"));
+//        click(By.xpath("//*[contains(text(),'"+gender +"')]"));
+
+        //languages
+        chooseOption("Languages",languages);
+        escape();
+
+        //Message
+        click(By.cssSelector("textarea"));
+        type(By.cssSelector("textarea"),"string");
+    }
+
+    public void chooseOption(String field, String myChoice) {
+        click(By.cssSelector("[placeholder='"+field+"']"));
+        click(By.xpath("//*[contains(text(),'"+myChoice +"')]"));
+    }
+    public void chooseTwoOptions(String field, String myChoice, String myChoice2) {
+        click(By.cssSelector("[placeholder='"+field+"']"));
+        click(By.xpath("//*[contains(text(),'"+myChoice +"')]"));
+        click(By.xpath("//*[contains(text(),'"+myChoice2 +"')]"));
+
+    } public void chooseThreeOptions(String field, String myChoice, String myChoice2, String myChoice3) {
+        click(By.cssSelector("[placeholder='"+field+"']"));
+        click(By.xpath("//*[contains(text(),'"+myChoice +"')]"));
+        click(By.xpath("//*[contains(text(),'"+myChoice2 +"')]"));
+        click(By.xpath("//*[contains(text(),'"+myChoice3 +"')]"));
+    }
+
+
+    public void enterDate(String year, String month, String day) throws InterruptedException {
         click(By.xpath("//*[@aria-label='Open calendar']"));
         click(By.xpath("//*[@aria-label='Choose month and year']"));
 
@@ -74,58 +114,15 @@ public class UserHelper extends HelperBase{
 
         click(By.xpath("//*[contains(text(),'" + year + "')]"));
 
-        waitAndClick(month);
-
-        //select day
+        waitAndClick(3000, By.xpath("//*[contains(text(),'" + month + "')]"));
         click(By.xpath("//div[contains(text(),'" + day + "')]"));
-
-    }
-
-    public void waitAndClick(String month) throws InterruptedException {
-        Thread.sleep(3000);
-        click(By.xpath("//*[contains(text(),'" + month + "')]"));
-    }
-
-    public void click(By locator) {
-        wd.findElement(locator).click();
     }
 
     private boolean isYearPresent(String year) {
 
         return isElementPresent(By.xpath("//*[contains(text(),'" + year + "')]"));
     }
-    //Status
-    public void fillAboutMyselfForm(String status, String food, String gender, String languages) throws InterruptedException {
-        click(By.cssSelector("[placeholder='Marital Status']"));
-        click(By.xpath("//*[contains(text(),'"+status +"')]"));
-        //Food
-        click(By.cssSelector("[placeholder='Food Preferences']"));
-        click(By.xpath("//*[contains(text(),'"+food +"')]"));
-        escape();
-        Thread.sleep(3000);
-        //Gender
-        click(By.cssSelector("[placeholder='Gender']"));
-        click(By.xpath("//*[contains(text(),'"+gender +"')]"));
-        //languages
-        click(By.cssSelector("[placeholder='Languages']"));
-        click(By.xpath("//*[contains(text(),'"+languages +"')]"));
-        escape();
-        click(By.cssSelector("textarea"));
-        //Message
-        type(By.cssSelector("textarea"),"string");
 
-
-
-
-    }
-
-    private void escape() {
-
-        Actions action = new Actions(wd);
-
-        action.sendKeys(Keys.ESCAPE).build().perform();
-
-        }
-    }
+}
 
 
