@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f85a3bc-ae9e-43c2-a479-78fbfd77a396" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/out/test/classes/com/telRan/mish/Manager/UserHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mishpahug-web-tests/out/test/classes/com/telRan/mish/Manager/UserHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Manager/UserHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Manager/UserHelper.java" afterDir="false" />
-    </list>
+    <list default="true" id="5f85a3bc-ae9e-43c2-a479-78fbfd77a396" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/addressBook/.gradle/" />
     <ignored path="$PROJECT_DIR$/addressBook/build/" />
     <ignored path="$PROJECT_DIR$/addressBook/out/" />
@@ -118,12 +113,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="40" />
-          <entry key="java" value="4113" />
+          <entry key="java" value="4114" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4113" />
+          <entry key="JAVA" value="4114" />
           <entry key="PLAIN_TEXT" value="40" />
         </counts>
       </usages-collector>
@@ -132,11 +127,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Test/RegistrationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+            <state relative-caret-position="327">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,11 +163,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Manager/UserHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            <state relative-caret-position="611">
+              <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1155,7 +1150,7 @@
     <property name="SearchEverywhereHistoryKey" value="fillAbou&#9;PSI&#9;JAVA://com.telRan.mish.Manager.HelperBase#fillAboutMyselfForm" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540372219631" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540372457521" />
     <property name="extract.method.default.visibility" value="public" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1313,12 +1308,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 14h 46m 11s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 14h 54m 11s.xml">
-      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.23 at 15h 01m 20s.xml">
       <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
     </history-entry>
@@ -1341,6 +1330,12 @@
       <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 06m 59s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 10m 04s.xml">
+      <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RegistrationTests_registerFromHeaderTest - 2018.10.24 at 12h 10m 50s.xml">
       <configuration name="RegistrationTests.registerFromHeaderTest" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -1566,16 +1561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Test/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Manager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1600,10 +1585,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Test/RegistrationTests.java">
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Test/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        <state relative-caret-position="195">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1612,8 +1597,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Manager/UserHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="81" column="17" lean-forward="true" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        <state relative-caret-position="611">
+          <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mishpahug-web-tests/src/test/java/com/telRan/mish/Test/RegistrationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
