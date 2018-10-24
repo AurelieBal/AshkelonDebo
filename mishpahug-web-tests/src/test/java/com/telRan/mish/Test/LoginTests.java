@@ -1,4 +1,4 @@
-package com.telRan.mish;
+package com.telRan.mish.Test;
 
 
 import org.testng.Assert;
@@ -9,7 +9,7 @@ public class LoginTests extends TestBase{
 
     @BeforeMethod
 
-    public void preconditions(){
+    public void preconditions() throws InterruptedException {
         if(app.getSessionHelper().isLoggedIn()){
             app.getSessionHelper().logOut();
         }

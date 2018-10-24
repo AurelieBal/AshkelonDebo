@@ -1,4 +1,4 @@
-package com.telRan.mish;
+package com.telRan.mish.Manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;

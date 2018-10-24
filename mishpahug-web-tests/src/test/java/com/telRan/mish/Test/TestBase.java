@@ -1,5 +1,6 @@
-package com.telRan.mish;
+package com.telRan.mish.Test;
 
+import com.telRan.mish.Manager.ApplicationManager;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
